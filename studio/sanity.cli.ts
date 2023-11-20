@@ -1,8 +1,6 @@
-// @ts-nocheck 
-import {defineConfig} from 'sanity/lib/exports'
+import {defineCliConfig} from 'sanity/cli'
 
-
-export default defineConfig({
+export default defineCliConfig({
   api: {
     projectId: 'yfol1ok2',
     dataset: 'production'
